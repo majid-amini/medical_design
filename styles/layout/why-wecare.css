@@ -1,0 +1,75 @@
+#why--wecare {
+    background-color: rgb(171, 171, 230);
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.why--wecare--l {
+    position: relative;
+}
+
+/* .why--wecare--img {
+
+} */
+/* .why--wecare--img img {
+
+} */
+.why--wecare--box{
+    
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: aqua;
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    
+}
+.why--wecare--box .doctor-item {
+    width: 18rem;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* margin-top: 2rem; */
+}
+.doctor-item img {
+    width: 6rem;
+}
+.doctor-item .doctor-item--name {
+    display: flex;
+    align-items: center;
+}
+.why--wecare--r {
+    /* margin-top: 5rem; */
+    padding: 5rem 0;
+}
+.why--wecare--r .why--wecare--total {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.why--wecare--total h3 {
+    font-size: 3rem;
+}
+.why--wecare--total h4 {
+    font-size: 1.5rem;
+    color: #ccc;
+    padding: 1rem 0;
+}
+.text--checkbox {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+.why--wecare--total button {
+    width: 20rem;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+

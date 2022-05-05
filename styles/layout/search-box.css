@@ -1,0 +1,98 @@
+#search--box {
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    background-color: var(--light-color);
+    position: relative;
+    margin-top: -6rem;
+    border-radius: 1rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    'search--input search--input search--input location--input location--input location--input search--btn'
+    'box--title box-title box-title box-title box-title box-title box-title'
+    'item1 item2 item3 item4 item5 item6 item7'
+    ;
+}
+.search--input {
+    
+    grid-area: search--input;
+}
+.location--input {
+    
+    grid-area: location--input;
+}
+.search--btn {
+    grid-area: search--btn;
+    width: 5rem;
+    align-self: center;
+    text-align: center;
+}
+
+#search--box .box--title {
+    margin-top: 1rem;
+    grid-area: box-title;
+    grid-column: 1/-1;
+}
+.item {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    font-size: 1.3rem;
+    
+}
+.item1 {
+    grid-area: item1;
+}
+.item2 {
+    grid-area: item2;
+}
+.item3 {
+    grid-area: item3;
+}
+.item4 {
+    grid-area: item4;
+}
+.item5 {
+    grid-area: item5;
+}
+.item6 {
+    grid-area: item6;
+}
+.item7 {
+    grid-area: item7;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+#search--box input {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+}
+#search--box input::placeholder {
+    color: #ccc;
+}
+.search--input, .location--input {
+    background-color: #eee;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.search--btn {
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+

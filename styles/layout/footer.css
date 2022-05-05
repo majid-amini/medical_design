@@ -1,0 +1,29 @@
+#footer_total {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 3rem;
+
+}
+.footer_first--column .logo--wecare {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.footer_first--column, .footer_second--column, .footer_third--column, .footer_fourth--column, .footer_fifth--column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.footer_second--column h4 {
+    text-align: center;
+}
+.footer--items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

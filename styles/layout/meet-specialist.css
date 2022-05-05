@@ -1,0 +1,46 @@
+#meet--our--specialist {
+    background-color: blueviolet;
+    padding: 0 3rem;
+}
+#meet--our--specialist h3,h4 {
+    text-align: center;
+    
+}
+#meet--our--specialist h3 {
+    padding-top: 5rem;
+    font-size: 3rem;
+}
+#meet--our--specialist h4 {
+    margin-top: 2rem;
+    color: #ccc;
+}
+.meet--specialist--total {
+    width: 100%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.meet--specialist--item {
+    width: 25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+.meet--specialist--item img {
+    width: 15rem;
+}
+.meet--specialist--pages {
+    color: #000;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+}
+.meet--specialist--pages span:first-child {
+    color: yellowgreen;
+}

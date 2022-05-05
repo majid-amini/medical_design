@@ -1,0 +1,6 @@
+#find--doctor {
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+}

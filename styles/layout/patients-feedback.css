@@ -1,0 +1,58 @@
+#patents--feedback {
+    background-color: brown;
+    padding: 0 3rem;
+}
+#patents--feedback h3, h4 {
+    text-align: center;
+}
+#patents--feedback h3 {
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+#patents--feedback h4 {
+    margin-top: 2rem;
+    color: #ccc;
+}
+.patients--feedback--total {
+    width: 110rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.patients--feedback-l img {
+    width: 45rem;
+}
+.patients--feedback-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.patients--feedback--column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.patients--feedback--column img {
+    width: 7rem;
+    background-color: blue;
+    border-radius: 1rem;
+}
+.patients--feedback--info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.patients--feedback--pages {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.patients--feedback--pages span {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.patients--feedback--pages span:first-child {
+    color: #ccc;
+}

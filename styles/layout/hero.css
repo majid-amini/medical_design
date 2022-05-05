@@ -1,0 +1,42 @@
+main {
+  
+  background-color: #eee;
+  
+  
+}
+.hero_total {
+  height: 55rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 6rem;
+  background-color: var(--secondary-color);
+}
+.hero_total--left {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 3rem;
+}
+.hero_total--left h1 {
+  font-size: 5.5rem;
+}
+.hero_total--left h4 {
+  color: #ccc;
+}
+.hero_buttons {
+  
+  display: flex;
+  gap: 2rem;
+}
+.hero_btn--left, .hero_btn--right {
+  background-color: var(--darkblue-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  color: var(--light-color);
+}
+.hero_buttons button {
+  background: none;
+  border: none;
+  color: var(--light-color);
+}

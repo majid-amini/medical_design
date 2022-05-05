@@ -1,0 +1,49 @@
+#subscribe {
+    display: flex;
+    justify-content: center;
+}
+.subscribe--total {
+    width: 50rem;
+    background-color: blue;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 5rem 0;
+    border-radius: 2rem;
+    
+}
+.subscribe--total h3 {
+    font-size: 2rem;
+    color: var(--light-color);
+}
+.subscribe--total .subscribe--input {
+    background-color: var(--light-color);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1.3rem;
+    gap: 1.5rem;
+    border-radius: 1rem;
+}
+.subscribe--input input, a{
+    padding: 1rem;
+}
+.subscribe--input input {
+    width: 25rem;
+    border: none;
+    outline: none;
+}
+.subscribe--input input::placeholder {
+    color: #ccc;
+}
+.subscribe--input a {
+    background-color: rgb(6, 6, 129);
+    color: var(--light-color);
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    
+}

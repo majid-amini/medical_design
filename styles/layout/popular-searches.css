@@ -1,0 +1,31 @@
+#popular--searches {
+    padding: 0 2rem;
+    margin-top: 5rem;
+}
+.popular--searches--total {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+.popular--searches--total div {
+   
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+.popular--search--first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.popular--search--icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-color);
+}
+.general--medicine {
+    border: 0.1rem solid var(--primary-color);
+}
