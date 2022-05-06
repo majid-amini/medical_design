@@ -75,12 +75,14 @@ color: violet;
     position: absolute;
     right: -15rem;
     top: 20rem;
-    background-color: aqua;
+    background-color: var(--light-color);
     padding: 3rem;
     border-radius: 2rem;
 }
 .find--doctor--box h4 {
     font-size: 2rem;
+    text-align: left;
+    align-self: flex-start;
 }
 .find--doctor--box input {
     padding: 0.5rem 1rem;
@@ -98,4 +100,11 @@ color: violet;
     display: flex;
     gap: 1.5rem;
     align-items: center;
+}
+.box--items:last-child {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
 }

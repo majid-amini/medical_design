@@ -37,6 +37,25 @@ header {
     display: flex;
     gap: 1.5rem;
   }
+  .navbar ul li {
+    transition: all 0.3s ease-in-out;
+    
+  }
+  .navbar ul li:hover {
+    transform: rotate(-5deg);
+    
+  }
+  .navbar ul li a {
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5rem;
+  }
+  .navbar ul li a:hover {
+    color: var(--primary-color);
+    background-color: var(--light-color);
+    box-shadow: inset 0.1rem 0.2rem 0.3rem #000;
+    
+  }
   .right--total {
     display: flex;
     gap: 0.5rem;
