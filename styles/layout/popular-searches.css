@@ -2,30 +2,58 @@
     padding: 0 2rem;
     margin-top: 5rem;
 }
+#popular--searches h3 {
+    padding: 0 5rem;
+    font-size: 2.5rem;
+}
 .popular--searches--total {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     margin-top: 2rem;
     gap: 1.5rem;
 }
-.popular--searches--total div {
-   
+.popular--searches--total div:not(1) {
     border-radius: 1.5rem;
     padding: 1rem;
+    
 }
 .popular--search--first {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
+    gap: 1rem;
+    border-right: 0.3rem solid var(--primary-color);
+    cursor: pointer;
+}
+.popular--search--first span:first-child {
+    font-weight: bold;
+}
+.popular--search--first span {
+    transition: all 0.3s ease-in-out;
+}
+.popular--search--first span:hover {
+    color: var(--primary-color);
+    transform: translateX(0.5rem);
 }
 .popular--search--icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem 2rem;
     background-color: var(--light-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 1rem;
+}
+.popular--search--icon:hover {
+    box-shadow: 0.1rem 0.1rem 0.3rem #ccc;
+    border: inset 0.1rem solid #000;
+    background-color: #eee;
+    transform: translateY(0.5rem);
 }
 .general--medicine {
     border: 0.1rem solid var(--primary-color);
+    background-color: #eee;
 }

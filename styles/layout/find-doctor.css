@@ -2,7 +2,7 @@
     padding: 0 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 5rem;
+    margin-top: 7rem;
     
 }
 .find--doctor--l {
@@ -65,6 +65,7 @@ color: violet;
     padding: 2rem;
     border-left: 0.3rem solid #ccc;
     margin-top: 1rem;
+    margin-left: 2.5rem;
 }
 .find--doctor--box {
     display: flex;

@@ -14,7 +14,7 @@ main {
 .hero_total--left {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: flex-start;
   gap: 3rem;
 }
