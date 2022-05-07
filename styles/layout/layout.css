@@ -10,11 +10,10 @@
 @import 'patients-feedback.css';
 @import 'subscribe.css';
 @import './footer.css';
-@import './live_auctions.css';
-@import './popular_collection.css';
-@import './setup_wallet.css';
-@import './todays_picks.css';
-@import './top_seller.css';
+@import 'responsive.css';
+
+
+
 
 
 

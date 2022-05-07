@@ -30,6 +30,12 @@
     gap: 1rem;
     background-color: aliceblue;
     border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.meet--specialist--item:hover {
+    transform: translateX(0.3rem);
+    box-shadow: 0 0 0 0.3rem #eee;
 }
 .meet--specialist--item img {
     width: 15rem;

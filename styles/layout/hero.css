@@ -28,12 +28,25 @@ main {
   
   display: flex;
   gap: 2rem;
+  
 }
 .hero_btn--left, .hero_btn--right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   background-color: var(--darkblue-color);
   padding: 2rem;
   border-radius: 1rem;
   color: var(--light-color);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.hero_btn--left i, .hero_btn--right i {
+  font-size: 2rem;
+}
+.hero_btn--left:hover, .hero_btn--right:hover {
+  background-color: var(--primary-color);
+  color: rgba(0, 0, 0, 0.75);
 }
 .hero_buttons button {
   background: none;

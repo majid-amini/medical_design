@@ -8,17 +8,12 @@
     position: relative;
 }
 
-/* .why--wecare--img {
 
-} */
-/* .why--wecare--img img {
-
-} */
 .why--wecare--box{
     
     padding: 2rem;
     border-radius: 1rem;
-    background-color: aqua;
+    background-color: var(--secondary-color);
     position: absolute;
     top: 10rem;
     right: 5rem;
@@ -54,6 +49,7 @@
     font-size: 3rem;
 }
 .why--wecare--total h4 {
+    text-align: left;
     font-size: 1.5rem;
     color: #ccc;
     padding: 1rem 0;
@@ -71,5 +67,13 @@
     border: none;
     padding: 1rem 1.5rem;
     border-radius: 1rem;
+    margin-top: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+.why--wecare--total button:hover {
+    color: var(--primary-color);
+    background-color: var(--light-color);
+    box-shadow: 0.2rem 0.2rem 0.3rem var(--primary-color);
+    
 }
 
