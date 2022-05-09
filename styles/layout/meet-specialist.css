@@ -1,5 +1,5 @@
 #meet--our--specialist {
-    background-color: blueviolet;
+    background-color: var(--hero-bg);
     padding: 0 3rem;
 }
 #meet--our--specialist h3,h4 {
@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    background-color: aliceblue;
+    background-color: rgba(0,0,0,0.3);
     border-radius: 1rem;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -38,7 +38,7 @@
     box-shadow: 0 0 0 0.3rem #eee;
 }
 .meet--specialist--item img {
-    width: 15rem;
+    width: 100%;
 }
 .meet--specialist--pages {
     color: #000;
@@ -46,6 +46,9 @@
     font-weight: bold;
     text-align: center;
     padding: 2rem;
+}
+.meet--specialist--pages span {
+    cursor: pointer;
 }
 .meet--specialist--pages span:first-child {
     color: yellowgreen;

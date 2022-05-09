@@ -1,15 +1,12 @@
 main {
-  
   background-color: #eee;
-  
-  
 }
 .hero_total {
   height: 55rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 6rem;
-  background-color: var(--secondary-color);
+  padding: 8rem 6rem 0 6rem;
+  background-color: var(--hero-bg);
 }
 .hero_total--left {
   display: flex;

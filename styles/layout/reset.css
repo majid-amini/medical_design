@@ -3,6 +3,9 @@
 
 :root {
   --primary-color: #4e3fee;
+  --hero-bg: rgba(220,230,255,0.75);
+  --hero-bg2: hsl(219, 83%, 96%);
+  --hero-bg3: hsl(219, 83%, 97%);
   --secondary-color: #edecfd;
   --darkblue-color: #1f195f;
   --black-color: #000;

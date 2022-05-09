@@ -1,5 +1,5 @@
 header {
-  background-color: var(--secondary-color);
+    background-color: var(--hero-bg);
     padding: 2rem 5rem;
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,7 @@ header {
   }
   .right--total {
     display: flex;
-    gap: 0.5rem;
+    gap: 1.5rem;
   }
   .right--total button {
     border: none;
