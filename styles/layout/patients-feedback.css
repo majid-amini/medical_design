@@ -1,5 +1,5 @@
 #patents--feedback {
-    
+    background-color: var(--light-color);
     padding: 0 3rem;
 }
 #patents--feedback h3, h4 {
@@ -17,6 +17,7 @@
     width: 110rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+   
 }
 .patients--feedback-l img {
     width: 45rem;

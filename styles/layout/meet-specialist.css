@@ -35,11 +35,18 @@
 }
 .meet--specialist--item:hover {
     transform: translateX(0.3rem);
-    box-shadow: 0 0 0 0.3rem #eee;
+    box-shadow: 0.1rem 0.1rem 0.5rem #000;
+}
+.meet--specialist--item:hover img {
+    background-color: var(--hero-bg);
 }
 .meet--specialist--item img {
     width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
 }
+
 .meet--specialist--pages {
     color: #000;
     font-size: 5rem;
